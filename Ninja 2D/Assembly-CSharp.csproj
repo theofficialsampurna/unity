@@ -63,6 +63,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\FSM\NinjaBaseState.cs" />
+    <Compile Include="Assets\Scripts\FSM\NinjaCrouchingState.cs" />
+    <Compile Include="Assets\Scripts\FSM\NinjaIdleState.cs" />
+    <Compile Include="Assets\Scripts\FSM\NinjaJumpingState.cs" />
+    <Compile Include="Assets\Scripts\FSM\NinjaRunningState.cs" />
+    <Compile Include="Assets\Scripts\FSM\Ninja_FSM.cs" />
     <Compile Include="Assets\Scripts\Ninja.cs" />
     <None Include="Assets\Sprites\Nature_pixel_art_assets\pixel_snapping_README.txt" />
     <Reference Include="UnityEngine">
